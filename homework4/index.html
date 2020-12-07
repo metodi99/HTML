@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Working with forms</title>
+</head>
+
+<body>
+    <h1 style="color: red;">STUDENT EXERCISE</h1>
+    <form>
+        <fieldset>
+            <legend><strong>Testform</strong></legend>
+
+            <label for="username">Name</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" name="username" id="username" required />
+
+            <br><br>
+            <label for="password">Password</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="password" name="username" id="password" required />
+
+            <br><br>
+            <p>Gender &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender" id="male" value="male">
+                <label>Male</label>
+
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </p>
+            <br><br>
+            <label for="continent">Continent</label>
+            <select name="continent" id="continent">
+                <option disabled selected>Please select continent:</option>
+                <option value="1">Europe</option>
+                <option value="2">Africa</option>
+                <option value="3">Asia</option>
+                <option value="4">North America</option>
+                <option value="5">South America</option>
+                <option value="6">Antarctica</option>
+                <option value="7">Australia</option>
+
+            </select>
+
+            <br><br>
+            <p>Meals &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="meals" id="breakfast" value="breakfast" />
+                <label for="breakfast">Breakfast</label>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="meals" id="lunch" value="lunch" />
+                <label for="lunch">Lunch</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="meals" id="dinner" value="dinner" />
+                <label for="dinner">Dinner</label>
+            </p>
+
+            <br><br>
+            <label for="text">Remark</label>
+            <textarea style="width: 200px; height=600px" name="text" id="text"></textarea>
+
+            <br><br>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
