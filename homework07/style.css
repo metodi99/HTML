@@ -1,0 +1,73 @@
+* {
+    margin: auto;
+}
+.boxes {
+    width: 510px;
+    height: 510px;
+border: 5px solid black;
+margin-top: 60px;
+}
+#first {
+    width: 120px;
+    height: 150px;
+    border-bottom: 15px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    left: -190.5px;
+    top: -1px;
+    background-color: rgb(240, 240, 236);
+}
+#second {
+    width: 120px;
+    height: 230px;
+    border-bottom: 15px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    left: -190.5px;
+    top: -1px;
+    background-color: rgb(240, 240, 236);
+}
+#third {
+    width: 120px;
+    height: 102px;
+    border-right: 10px solid black;
+    position: relative;
+    left: -191px;
+    top: -1px;
+    background-color: rgba(22, 71, 177, 0.637);
+}
+#forth {
+    width: 382px;
+    height: 395px;
+    border-bottom: 15px solid black;
+    position: relative;
+    top: -513px;
+    right: -65px;
+    background-color: rgb(218, 85, 85);
+}
+#fifth {
+    width: 310px;
+    height: 101px;
+    border-right: 10px solid black;
+    position: relative;
+   top: -513px;
+    right: -33px;
+    background-color: rgb(240, 240, 236);
+}
+#sixth {
+    width: 62.5px;
+    height: 40px;
+    border-bottom: 15px solid black;
+    position: relative;
+   top: -613px;
+    right: -224.3px;
+    background-color: rgb(240, 240, 236);
+}
+#seventh {
+    width: 62.5px;
+    height: 45px;
+    position: relative;
+   top: -613px;
+    right: -224.3px;
+    background-color: rgb(218, 218, 83);
+}
